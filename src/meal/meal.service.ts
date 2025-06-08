@@ -2,9 +2,9 @@ import { Injectable } from '@nestjs/common';
 import axios from 'axios';
 
 export interface MealInfo {
-  breakfast?: string[];
-  lunch?: string[];
-  dinner?: string[];
+  breakfast?: string[] | null;
+  lunch?: string[] | null;
+  dinner?: string[] | null;
   date: string;
 }
 

@@ -1,6 +1,6 @@
 import { Entity, PrimaryGeneratedColumn, Column, OneToMany, CreateDateColumn, UpdateDateColumn } from 'typeorm';
 import { LeftoverRecord } from '../leftover/leftover-record.entity';
-import { TournamentVote } from '../tournament/tournament-vote.entity';
+import { TournamentVote } from '../tournament/tournament.entity';
 
 @Entity('users')
 export class User {

@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { FoodItem, TournamentVote } from './tournament.entities';
+import { FoodItem, TournamentVote } from './tournament.entity';
 import { CreateFoodItemDto, VoteDto } from './dto/tournament.dto';
 
 @Injectable()
